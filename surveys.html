@@ -17,18 +17,16 @@
         margin: 0;
         padding: 0;
         background-color: black;
-        color: white; /* Default text color for better readability */
+        color: white;
       }
 
-      /* Styling for the header */
       h1 {
-        margin: 20px 0 0 20px; /* Spacing from top-left corner */
+        margin: 20px 0 0 20px;
       }
 
-      /* Centered links container, with adjusted vertical position */
       .nav-links {
         position: absolute;
-        top: 27px; /* Adjusted to vertically align with the text */
+        top: 30px;
         left: 50%;
         transform: translateX(-50%);
       }
@@ -37,17 +35,26 @@
         color: white;
         text-decoration: none;
         font-size: 1.2rem;
-        margin: 0 15px; /* Spacing between links */
+        margin: 0 15px;
         transition: color 0.3s;
       }
 
-      /* Make "Surveys & Offers" blue by default */
       .nav-links a.surveys {
         color: #55adee;
       }
 
       .nav-links a:hover {
-        color: #55adee; /* Hover effect for all links */
+        color: #55adee;
+      }
+
+      /* New Blue Rounded Rectangle */
+      .blue-rectangle {
+        background-color: #55adee; /* Blue color */
+        width: 80%; /* 80% of the screen width */
+        margin: 20px auto; /* Centered with some spacing */
+        padding: 20px; /* Padding inside the rectangle */
+        border-radius: 15px; /* Rounded corners */
+        text-align: center; /* Center content inside the rectangle */
       }
     </style>
   </head>
@@ -56,7 +63,7 @@
     <!-- Top-left title -->
     <h1>
       <span style="color: #55adee;">Get</span>
-      <span style="color: #eed655;">Paid</span>
+      <span style="color: #ee5555;">Paid</span>
       <span style="color: #61ee55;">Too</span><span style="color: #ee55da;">.</span>
     </h1>
 
@@ -65,6 +72,11 @@
       <a href="#surveys" class="surveys">Surveys & Offers</a>
       <a href="#walking">Walking</a>
       <a href="#more">More</a>
+    </div>
+
+    <!-- Blue rounded rectangle -->
+    <div class="blue-rectangle">
+      <p>This is a blue rounded rectangle!</p>
     </div>
   </body>
 </html>
