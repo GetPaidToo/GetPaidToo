@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Surveys : Get Paid Too</title>
+    <title>Home : Get Paid Too</title>
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,7 +25,7 @@
       /* Centered links container, with adjusted vertical position */
       .nav-links {
         position: absolute;
-        top: 30px; /* Adjusted to vertically align with the text */
+        top: 40px; /* Adjusted to vertically align with the text */
         left: 50%;
         transform: translateX(-50%);
       }
@@ -38,8 +38,13 @@
         transition: color 0.3s;
       }
 
+      /* Make "Surveys & Offers" blue by default */
+      .nav-links a.surveys {
+        color: #55adee;
+      }
+
       .nav-links a:hover {
-        color: #55adee; /* Hover effect */
+        color: #55adee; /* Hover effect for all links */
       }
     </style>
   </head>
@@ -54,7 +59,7 @@
 
     <!-- Top-middle navigation links -->
     <div class="nav-links">
-      <a href="#surveys">Surveys & Offers</a>
+      <a href="#surveys" class="surveys">Surveys & Offers</a>
       <a href="#walking">Walking</a>
       <a href="#more">More</a>
     </div>
