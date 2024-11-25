@@ -66,52 +66,6 @@
         margin-top: 0; /* Removes any extra space above the paragraph */
       }
 
-      /* Styles for the green box */
-      .icon-box {
-        width: 150px; /* Adjust size as needed */
-        height: 150px;
-        background-color: #00d883; /* Bright green background */
-        margin: 20px auto; /* Centers the box horizontally */
-        border-radius: 15px; /* Rounded corners for the box */
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly; /* Space between the bars */
-        align-items: center;
-        position: relative; /* For precise positioning of elements */
-      }
-
-      /* Styles for the white bars */
-      .icon-bar {
-        width: 120px; /* Bar width */
-        height: 20px; /* Bar height */
-        background-color: white; /* White color for the bars */
-        border-radius: 5px; /* Slight rounding on bars */
-        position: relative;
-      }
-    
-      /* Styles for the top bar's smaller section */
-      .top-bar::before {
-        content: '';
-        width: 40px; /* Width of the small green rectangle */
-        height: 20px; /* Matches the bar height */
-        background-color: #00d883; /* Green matches the background */
-        position: absolute;
-        top: 0;
-        right: 0; /* Align to the right */
-        border-radius: 5px; /* Matches bar rounding */
-      }
-  
-      /* Styles for the middle bar's smaller section */
-      .middle-bar::before {
-        content: '';
-        width: 40px; /* Width of the small green rectangle */
-        height: 20px; /* Matches the bar height */
-        background-color: #00d883; /* Green matches the background */
-        position: absolute;
-        top: 0;
-        left: 0; /* Align to the left */
-        border-radius: 5px; /* Matches bar rounding */
-      }
     </style>
   </head>
    
@@ -133,12 +87,6 @@
     <div class="content">
       <h2>Surveys & Offers</h2>
       <p>Survey sites are platforms where users can earn rewards (cash, gift cards, or points) by completing surveys for market research companies. Companies pay these sites for feedback, and a portion of the revenue is shared with users.</p>
-    </div>
-
-    <div class="icon-box">
-      <div class="icon-bar top-bar"></div>
-      <div class="icon-bar middle-bar"></div>
-      <div class="icon-bar bottom-bar"></div>
     </div>
         
   </body>
