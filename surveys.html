@@ -65,6 +65,27 @@
         line-height: 1.6; /* Keeps line spacing */
         margin-top: 0; /* Removes any extra space above the paragraph */
       }
+
+      /* Styles for the box */
+      .box {
+        width: 200px; /* Adjust as needed */
+        height: 200px;
+        background-color: #00d883; /* Match the green background color */
+        margin: 20px auto; /* Centers the box */
+        border-radius: 10px; /* Rounded corners */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly; /* Even spacing between bars */
+        align-items: center; /* Center-aligns bars */
+      }
+
+      /* Styles for the bars */
+      .box .bar {
+        width: 80%; /* Bars take 80% of the box width */
+        height: 20px; /* Adjust bar height */
+        background-color: white;
+        border-radius: 5px; /* Rounded corners for the bars */
+      }
     </style>
   </head>
    
@@ -87,5 +108,12 @@
       <h2>Surveys & Offers</h2>
       <p>Survey sites are platforms where users can earn rewards (cash, gift cards, or points) by completing surveys for market research companies. Companies pay these sites for feedback, and a portion of the revenue is shared with users.</p>
     </div>
+
+    <div class="box">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+    
   </body>
 </html>
